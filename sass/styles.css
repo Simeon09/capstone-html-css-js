@@ -239,4 +239,21 @@ body .sectionThree div p {
             justify-content: space-evenly;
   }
 }
+
+body .sectionFour {
+  padding: 0px 3vw;
+  font-family: "Open Sans", sans-serif;
+  background-color: #181f2a;
+}
+
+body .sectionFour .fourImg img {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+body .sectionFour h5 {
+  color: #f7e9e9;
+  font-size: 20px;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -211,4 +211,23 @@ body {
            }
         }
     }
+   .sectionFour{
+       padding: 0px 3vw;
+       font-family: $fontfamily;
+       background-color: $secondcolour;
+       .fourImg{
+           img{
+
+               width: 100%;
+               padding-top: 70px;
+               padding-bottom: 40px;
+           }
+           
+       }
+       h5{
+           color: $white;
+           font-size: 20px;
+
+       }
+   } 
 }
