@@ -254,6 +254,13 @@ body .sectionFour .fourImg img {
 
 body .sectionFour h5 {
   color: #f7e9e9;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 0px;
+}
+
+body .sectionFour p {
+  color: #f7e9e9;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=styles.css.map */
