@@ -145,7 +145,7 @@ body {
             margin: auto;
             padding: 15px 70px;
             border-radius: 30px;
-            
+
             background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
             border: none;
             outline: none;
@@ -155,7 +155,7 @@ body {
             font-size: 16px;
 
             &:hover {
-               background-image: linear-gradient(to right,hsl(176, 68%, 64%), hsl(176, 68%, 64%));
+                background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(176, 68%, 64%));
 
             }
 
@@ -167,74 +167,181 @@ body {
             }
         }
 
-       
+
     }
-    .sectionThree{
+
+    .sectionThree {
         background-color: $secondcolour;
         color: white;
         margin: auto;
         padding: 0px 3vw;
         font-family: $fontfamily;
-        div{
-           text-align: center;
-           padding: 20px 0px;
-           img{
-               padding-bottom: 30px;
-               padding-top: 30px;
-               width: 30%;
-           }
-           h6{
-               font-size: 5vw;
-               padding-bottom: 10px;
-               font-weight: 700;
-               @media screen and (min-width:764px) {
-                font-size: 24px;
-            
+
+        div {
+            text-align: center;
+            padding: 20px 0px;
+
+            img {
+                padding-bottom: 30px;
+                padding-top: 30px;
+                width: 30%;
             }
-           }
-           p{
-               font-size: 4vw;
-               line-height: 1.5;
-               font-weight: 400;
-               
-               
-              @media screen and (min-width:764px) {
-                  font-size: 18px;
-                  width: 350px;
-              }
-                   
-               
-           }
-           @media screen and (min-width:764px) {
-             display: flex;  
-             justify-content: space-evenly 
-           }
+
+            h6 {
+                font-size: 5vw;
+                padding-bottom: 10px;
+                font-weight: 700;
+
+                @media screen and (min-width:764px) {
+                    font-size: 24px;
+
+                }
+            }
+
+            p {
+                font-size: 4vw;
+                line-height: 1.5;
+                font-weight: 400;
+
+
+                @media screen and (min-width:764px) {
+                    font-size: 18px;
+                    width: 350px;
+                }
+
+
+            }
+
+            @media screen and (min-width:764px) {
+                display: flex;
+                justify-content: space-evenly
+            }
         }
     }
-   .sectionFour{
-       padding: 0px 3vw;
-       font-family: $fontfamily;
-       background-color: $secondcolour;
-       .fourImg{
-           img{
 
-               width: 100%;
-               padding-top: 70px;
-               padding-bottom: 40px;
-           }
+    .sectionFour {
+        padding: 0px 3vw;
+        font-family: $fontfamily;
+        background-color: $secondcolour;
+
+        .fourImg {
+            img {
+
+                width: 100%;
+                padding-top: 70px;
+                padding-bottom: 40px;
+            }
+
+        }
+
+        h5 {
+            color: $white;
+            font-size: 5.7vw;
+
+            font-weight: 700;
+            padding: 20px 0px;
+            @media screen and (min-width:764px) {
+                font-size: 3vw;
+            }
+
+            @media screen and (min-width:1044px) {
+               font-size: 3vw; 
+               width: 30vw;
+            }
+        }
+
+        p {
+            color: $white;
+            line-height: 1.5;
+            padding: 10px 0px;
+            font-weight: 300;
+            font-size: 3.5vw;
+            @media screen and (min-width:764px) {
+                font-size: 20px;
+            }
            
-       }
-       h5{
-           color: $white;
-           font-size: 18px;
+        }
+        a{
+            
+            color: $cyancolur;
+            text-decoration: none;
+            align-items: center;
+            font-size: 3.5vw;
+            @media screen and (min-width:764px) {
+                font-size: 16px;
+            }
+            
+                img{
 
-           font-weight: 700;
-           padding: 20px 0px;
+                    vertical-align: text-bottom;
+                    width: 3.5vw;
+                    @media screen and (min-width:764px) {
+                        width: 20px;
+                    }
+                }
+            
+        }
+        .link{
+            text-decoration: underline;
+        }
 
-       }
-       p{
-           color: $white;
-           line-height: 1.5;
-       }
-   } 
+        @media screen and (min-width:764px) {
+         display: flex; 
+         
+             align-items: center;
+            justify-content: space-between;
+            
+            .fourImg{
+                width: 700px;
+                
+            }
+            .fourContent{
+                padding-left: 40px;
+                // h5{
+                //     font-size: 40px;
+                //     width: 500px;
+                // }
+            }
+        }
+    }
+    .testimonial{
+        background-color: $secondcolour;
+        padding-top: 70px;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        color: $white;
+        font-family: $fontfamily;
+        div{
+            background-color: $testimonialcolour;
+            margin: 30px 0px;
+            padding: 20px 20px 3px 20px;
+            font-size: 12.5px;
+            line-height: 1.5;
+            border-radius: 5px;
+            .profile{
+                display: flex;
+                align-items: center;
+                padding: 0px;
+                h6{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 12.5px;
+                }
+
+                img{
+                    width: 50px;
+                    border-radius: 70%;
+                    
+                }
+                span{
+                    padding-left: 10px;
+                    line-height: 1.5;
+                }
+            }
+        }
+        @media screen and (min-width:764px) {
+            display: flex;
+        }
+    }
 }
