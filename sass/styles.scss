@@ -1,0 +1,214 @@
+@import "colour";
+@import "variables";
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+
+}
+
+body {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 3vw;
+        background-color: $firstcolour;
+        border: none;
+
+        nav {
+            align-self: center;
+
+            ul {
+
+                display: flex;
+                justify-content: space-between;
+                gap: 5vw;
+
+                list-style-type: none;
+
+                li {
+                    align-items: center;
+
+                    a {
+                        color: $white;
+                        text-decoration: none;
+                        font-family: $fontfamily;
+
+                        @media screen and (min-width:764px) {
+                            font-size: 20px;
+                        }
+
+                        &:hover {
+                            color: white;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sectionOne {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        display: grid;
+        position: relative;
+
+        .illustration {
+            width: 100%;
+            padding: 0px 10vw;
+            margin: auto;
+            // padding: 0px 10vw;
+
+
+        }
+
+        background-color: $firstcolour;
+
+        .curve {
+            width: 100%;
+            // position: absolute;
+            top: 0;
+
+            @media screen and (min-width:764px) {
+                display: none;
+            }
+        }
+
+        .curveDesk {
+            display: none;
+
+            @media screen and (min-width:764px) {
+                display: flex;
+                width: 100%;
+            }
+
+            @media screen and (min-width:1484px) {
+                display: flex;
+                width: 101.5%;
+            }
+
+            // position: relative;
+        }
+
+        h6 {
+            color: $white;
+            text-align: center;
+            font-family: $fontfamily;
+            font-size: 7vw;
+            font-family: 700;
+            padding: 0px 3vw;
+            position: absolute;
+            top: 75vw;
+
+            @media screen and (min-width:764px) {
+                font-size: 4.8vw;
+
+
+            }
+        }
+    }
+
+    .sectionTwo {
+        background-color: $secondcolour;
+        color: white;
+        padding: 0px 3vw;
+        padding-bottom: 50px;
+
+        p {
+
+            font-size: 16px;
+            font-family: $fontfamily;
+            text-align: center;
+            line-height: 1.5;
+            font-family: 400;
+            padding-bottom: 30px;
+
+            @media screen and (min-width:764px) {
+                font-size: 24px;
+                width: 740px;
+                text-align: center;
+                display: flex;
+                margin: auto;
+                padding-top: 20px;
+
+
+            }
+
+        }
+
+        .btnOne {
+            display: flex;
+            margin: auto;
+            padding: 15px 70px;
+            border-radius: 30px;
+            
+            background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+            border: none;
+            outline: none;
+            color: $white;
+            font-family: $fontfamily;
+            font-weight: 700;
+            font-size: 16px;
+
+            &:hover {
+               background-image: linear-gradient(to right,hsl(176, 68%, 64%), hsl(176, 68%, 64%));
+
+            }
+
+            @media screen and (min-width:764px) {
+                padding: 20px 90px;
+                font-size: 20px;
+
+
+            }
+        }
+
+       
+    }
+    .sectionThree{
+        background-color: $secondcolour;
+        color: white;
+        margin: auto;
+        padding: 0px 3vw;
+        font-family: $fontfamily;
+        div{
+           text-align: center;
+           padding: 20px 0px;
+           img{
+               padding-bottom: 30px;
+               padding-top: 30px;
+               width: 30%;
+           }
+           h6{
+               font-size: 5vw;
+               padding-bottom: 10px;
+               font-weight: 700;
+               @media screen and (min-width:764px) {
+                font-size: 24px;
+            
+            }
+           }
+           p{
+               font-size: 4vw;
+               line-height: 1.5;
+               font-weight: 400;
+               
+               
+              @media screen and (min-width:764px) {
+                  font-size: 18px;
+                  width: 350px;
+              }
+                   
+               
+           }
+           @media screen and (min-width:764px) {
+             display: flex;  
+             justify-content: space-evenly 
+           }
+        }
+    }
+}
