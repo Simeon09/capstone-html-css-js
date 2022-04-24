@@ -240,13 +240,14 @@ body {
 
             font-weight: 700;
             padding: 20px 0px;
+
             @media screen and (min-width:764px) {
                 font-size: 3vw;
             }
 
             @media screen and (min-width:1044px) {
-               font-size: 3vw; 
-               width: 30vw;
+                font-size: 3vw;
+                width: 30vw;
             }
         }
 
@@ -256,46 +257,52 @@ body {
             padding: 10px 0px;
             font-weight: 300;
             font-size: 3.5vw;
+
             @media screen and (min-width:764px) {
                 font-size: 20px;
             }
-           
+
         }
-        a{
-            
+
+        a {
+
             color: $cyancolur;
             text-decoration: none;
             align-items: center;
             font-size: 3.5vw;
+
             @media screen and (min-width:764px) {
                 font-size: 16px;
             }
-            
-                img{
 
-                    vertical-align: text-bottom;
-                    width: 3.5vw;
-                    @media screen and (min-width:764px) {
-                        width: 20px;
-                    }
+            img {
+
+                vertical-align: text-bottom;
+                width: 3.5vw;
+
+                @media screen and (min-width:764px) {
+                    width: 20px;
                 }
-            
+            }
+
         }
-        .link{
+
+        .link {
             text-decoration: underline;
         }
 
         @media screen and (min-width:764px) {
-         display: flex; 
-         
-             align-items: center;
+            display: flex;
+
+            align-items: center;
             justify-content: space-between;
-            
-            .fourImg{
+
+            .fourImg {
                 width: 700px;
-                
+
             }
-            .fourContent{
+
+            .fourContent {
                 padding-left: 40px;
                 // h5{
                 //     font-size: 40px;
@@ -304,7 +311,8 @@ body {
             }
         }
     }
-    .testimonial{
+
+    .testimonial {
         background-color: $secondcolour;
         padding-top: 70px;
         padding-left: 3vw;
@@ -312,49 +320,119 @@ body {
         color: $white;
         font-family: $fontfamily;
         padding-bottom: 300px;
-        div{
+
+        div {
             background-color: $testimonialcolour;
             margin: 30px 0px;
             padding: 20px 20px 3px 20px;
             font-size: 12.5px;
             line-height: 1.5;
             border-radius: 5px;
-           
-            .profile{
+
+            .profile {
                 display: flex;
-                
+
                 align-items: center;
                 padding: 0px;
-                h6{
+
+                h6 {
                     font-size: 16px;
                 }
-                p{
+
+                p {
                     font-size: 12.5px;
                 }
 
-                img{
+                img {
                     width: 50px;
                     border-radius: 70%;
-                    
+
                 }
-                span{
+
+                span {
                     padding-left: 10px;
                     line-height: 1.5;
                 }
             }
         }
+
         @media screen and (min-width:764px) {
             display: flex;
             justify-content: space-between;
             gap: 30px;
         }
+
         @media screen and (min-width:1044px) {
             display: flex;
             justify-content: space-between;
             gap: 70px;
         }
     }
-    footer{
+    
+    footer {
+        position: relative;
+        
+        padding: 0px 3vw;
         background-color: $footerColour;
+        font-family: $fontfamily;
+
+        .card {
+            background-color: hsl(217, 28%, 15%);
+            color: $white;
+            padding: 10px;
+            margin-right: 5vw;
+            margin-left: 2vw;   
+
+            h4 {
+                text-align: center;
+                font-weight: 700;
+                font-size: 18px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            p {
+                text-align: center;
+                font-size: 14px;
+                line-height: 1.5;
+                padding-bottom: 20px;
+            }
+
+            p+button {
+                display: flex;
+                margin: auto;
+                padding: 10px 30px;
+                border-radius: 30px;
+                outline: none;
+                border: none;
+                color: $white;
+
+                input {
+                    border: none;
+                    outline: none;
+                    background-color: transparent;
+
+
+                }
+            }
+            p+button+button{
+                display: flex;
+                margin: auto;
+                padding: 10px 50px;
+                border-radius: 30px;
+                outline: none;
+                border: none;
+                
+                margin-top: 30px;
+                margin-bottom: 20px;
+                background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+                color: white;
+                font-weight: 700;
+            }
+            border-radius: 10px;
+            position: absolute;
+            top: -200px;
+            
+        }
     }
 }

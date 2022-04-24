@@ -408,6 +408,70 @@ body .testimonial div .profile span {
 }
 
 body footer {
+  position: relative;
+  padding: 0px 3vw;
   background-color: #0b1523;
+  font-family: "Open Sans", sans-serif;
+}
+
+body footer .card {
+  background-color: #1c2431;
+  color: #f7e9e9;
+  padding: 10px;
+  margin-right: 5vw;
+  margin-left: 2vw;
+  border-radius: 10px;
+  position: absolute;
+  top: -200px;
+}
+
+body footer .card h4 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body footer .card p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+body footer .card p + button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding: 10px 30px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: #f7e9e9;
+}
+
+body footer .card p + button input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+body footer .card p + button + button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding: 10px 50px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
+  background-image: linear-gradient(to right, #65e2d9, #339ecc);
+  color: white;
+  font-weight: 700;
 }
 /*# sourceMappingURL=styles.css.map */
