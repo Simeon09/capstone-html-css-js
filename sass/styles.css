@@ -343,6 +343,7 @@ body .testimonial {
   padding-right: 3vw;
   color: #f7e9e9;
   font-family: "Open Sans", sans-serif;
+  padding-bottom: 300px;
 }
 
 body .testimonial div {
@@ -404,5 +405,9 @@ body .testimonial div .profile span {
             justify-content: space-between;
     gap: 70px;
   }
+}
+
+body footer {
+  background-color: #0b1523;
 }
 /*# sourceMappingURL=styles.css.map */
