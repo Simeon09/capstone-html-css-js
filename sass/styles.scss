@@ -515,6 +515,11 @@ body {
                     padding-bottom: 10px;
                     line-height: 1.5;
                     font-size: 3.2vw;
+                    i{
+                        @media screen and (min-width:991px) {
+                          font-size: 20px;  
+                        }
+                    }
 
                     p {
                         padding-left: 20px;
@@ -523,6 +528,7 @@ body {
                             font-size: 17px;
                         }
                     }
+
                 }
 
                 @media screen and (min-width:991px) {
@@ -630,11 +636,15 @@ body {
                         padding-bottom: 20px;
                     }
                 }
+                @media screen and (min-width:991px) {
+                    padding-top: 30px;
+                }
             }
 
             @media screen and (min-width:991px) {
                 display: flex;
                 justify-content: space-between;
+        
             }
         }
 
