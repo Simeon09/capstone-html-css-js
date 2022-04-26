@@ -551,7 +551,13 @@ body footer .foot div:nth-child(1) span {
   padding-top: 30px;
   padding-bottom: 10px;
   line-height: 1.5;
-  font-size: 3.2vw;
+  font-size: 4vw;
+}
+
+@media screen and (min-width: 656px) {
+  body footer .foot div:nth-child(1) span {
+    font-size: 3vw;
+  }
 }
 
 @media screen and (min-width: 991px) {
@@ -589,8 +595,14 @@ body footer .foot div:nth-child(2) span:first-child {
 }
 
 body footer .foot div:nth-child(2) span:first-child p {
-  font-size: 3.3vw;
+  font-size: 4vw;
   padding-left: 20px;
+}
+
+@media screen and (min-width: 656px) {
+  body footer .foot div:nth-child(2) span:first-child p {
+    font-size: 3vw;
+  }
 }
 
 @media screen and (min-width: 991px) {
@@ -614,8 +626,14 @@ body footer .foot div:nth-child(2) span:nth-child(2) {
 }
 
 body footer .foot div:nth-child(2) span:nth-child(2) p {
-  font-size: 3.3vw;
+  font-size: 4vw;
   padding-left: 20px;
+}
+
+@media screen and (min-width: 656px) {
+  body footer .foot div:nth-child(2) span:nth-child(2) p {
+    font-size: 3vw;
+  }
 }
 
 @media screen and (min-width: 991px) {
@@ -688,7 +706,7 @@ body footer .foot div:nth-child(5) {
 body footer .foot div:nth-child(5) span i {
   font-size: 27px;
   padding-left: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 @media screen and (min-width: 991px) {
